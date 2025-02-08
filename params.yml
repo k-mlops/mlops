@@ -12,13 +12,13 @@ load_data:
 split_data:
   train_path: data/processed/train_aissm.csv
   test_path: data/processed/test_aissm.csv
-  test_size: 0.2
+  test_size: 0.3
 
 estimators:
   ElasticNet:
     params:
-      alpha: 0.95
-      l1_ratio: 0.35
+      alpha: 0.98
+      l1_ratio: 0.32
 
 model_path: models/models.joblib
 

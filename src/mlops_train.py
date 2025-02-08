@@ -69,7 +69,6 @@ def train_and_evaluate(config_path):
         mlflow.log_metric("mae", mae)
 
         # print("ElasticNet model (alpha=%f, l1_ratio=%f):" % (alpha, l1_ratio))
-
         # score_files = config["reports"]["score"]
         # params_file = config["reports"]["params"]
 
